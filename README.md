@@ -1,4 +1,4 @@
-> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/roddyfred)
+> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/Van_Qish)
 
 # Use Node.Js 18 or later
 
@@ -14,9 +14,8 @@
 | Binding a proxy to a session/query_id |    ✅     |
 | Random sleep time between clicks      |    ✅     |
 
-### [How to add query id](https://github.com/Freddywhest/RockyRabbitBot/blob/main/AddQueryId.md)
 
-## [Settings](https://github.com/FreddyWhest/NotPixel/blob/main/.env-example)
+## [Settings](https://github.com/Ciell25/NotPixel-Bot/blob/main/.env-example)
 
 | Settings                       | Description                                                                |
 | ------------------------------ | -------------------------------------------------------------------------- |
@@ -33,22 +32,22 @@
 
 ## Installation
 
-You can download [**Repository**](https://github.com/FreddyWhest/NotPixel) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/Ciell25/NotPixel-Bot.git) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-~ >>> git clone https://github.com/FreddyWhest/NotPixel.git
-~ >>> cd NotPixel
+~ >>> git clone https://github.com/Ciell25/NotPixel-Bot.git
+~ >>> cd NotPixel-Bot
 
 #Linux and MocOS
-~/NotPixel >>> chmod +x check_node.sh
-~/NotPixel >>> ./check_node.sh
+~/NotPixel-Bot >>> chmod +x check_node.sh
+~/NotPixel-Bot >>> ./check_node.sh
 
 OR
 
-~/NotPixel >>> npm install
-~/NotPixel >>> cp .env-example .env
-~/NotPixel >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/NotPixel >>> node index.js
+~/NotPixel-Bot >>> npm install
+~/NotPixel-Bot >>> cp .env-example .env
+~/NotPixel-Bot >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/NotPixel-Bot >>> node index.js
 
 #Windows
 1. Double click on INSTALL.bat in NotPixel directory to install the dependencies
@@ -56,24 +55,24 @@ OR
 
 OR
 
-~/NotPixel >>> npm install
-~/NotPixel >>> cp .env-example .env
-~/NotPixel >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/NotPixel >>> node index.js
+~/NotPixel-Bot >>> npm install
+~/NotPixel-Bot >>> cp .env-example .env
+~/NotPixel-Bot >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/NotPixel-Bot >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/NotPixel >>> node index.js --action=1
+~/NotPixel-Bot >>> node index.js --action=1
 
 OR
 
-~/NotPixel >>> node index.js --action=2 #session
+~/NotPixel-Bot >>> node index.js --action=2 #session
 
 OR
 
-~/NotPixel >>> node index.js --action=3 #query_id
+~/NotPixel-Bot >>> node index.js --action=3 #query_id
 
 #1 - Create session
 #2 - Run clicker
