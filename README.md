@@ -2,7 +2,7 @@
 
 # Use Node.Js 18 or later
 
-## Functionality
+## 
 
 | Functional                            | Supported |
 | ------------------------------------- | :-------: |
